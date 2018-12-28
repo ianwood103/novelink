@@ -3,6 +3,10 @@ element {
   --sec-color: #14A6F5;
 }
 
+body {
+  background-color: black;
+}
+
 .background-wrapper {
   width: 100%;
   height: 100%;
@@ -87,27 +91,53 @@ element {
   right: 2%;
 }
 
-#content-area {
+.blurb-area {
   background-color: white;
   position: absolute;
   width: 40%;
   height: 300px;
+  z-index: 1;
+  overflow-y: visible;
+}
+
+#content-area {
   top: 150px;
   left: 10%;
-  z-index: 1;
-  padding: 25px;
 }
 
 #slogan {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+}
+
+.blurb {
+  background-color: white;
+  padding: 25px;
 }
 
 #content-logo {
-  background-color: white;
+  background-color: black;
   position: absolute;
   height: 150px;
   width: 25%;
   z-index: 1;
   left: 60%;
   top: 150px;
+}
+
+#money-book {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.line-break {
+  height: 5px;
+  width: 100%;
+  background-color: white;
 }
