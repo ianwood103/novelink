@@ -6,7 +6,10 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Thasadith" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/toolbar.css">
+  <link rel="stylesheet" href="styles/footer.css">
   <script type="text/javascript" src="main.js"> </script>
 </head>
 <body>
@@ -15,15 +18,36 @@
     <div class="opening-toolbar">
       <table id="tool-table">
         <tr>
-          <td id="logo-table"> <img id="logo" src="img/logo.png"> </td>
-          <td> <input id="novelink-help-button" class="tool-btns" type="button" value="What is NoveLink?"> </td>
-          <td> <input id="support-button" class="tool-btns" type="button" value="Support Us"> </td>
-          <td> <input id="contact-button" class="tool-btns" type="button" value="Contact"> </td>
-          <td id="sign-in"> <a id="sign-in-button"> Sign In </a> </td>
-          <td id="sign-up"> <input type="button" value="Sign Up" id="sign-up-button"> </td>
+          <td id="logo-table">
+            <a href="#">
+              <img id="logo" src="img/logo.png">
+            </a>
+          </td>
+          <td>
+            <a href="novelink-help.html">
+              <input id="novelink-help-button" class="tool-btns" type="button" value="What is NoveLink?">
+            </a>
+          </td>
+          <td>
+            <a href="support.html">
+              <input id="support-button" class="tool-btns" type="button" value="Support Us">
+            </a>
+          </td>
+          <td>
+            <a href="contact.html">
+              <input id="contact-button" class="tool-btns" type="button" value="Contact">
+            </a>
+          </td>
+          <td id="sign-in">
+            <a id="sign-in-button"> Sign In </a>
+          </td>
+          <td id="sign-up">
+            <input type="button" value="Sign Up" id="sign-up-button">
+          </td>
         </tr>
       </table>
     </div>
+
     <table id="blurb-table">
       <tr>
         <td class="blurb-area">
@@ -78,7 +102,26 @@
           <img src="img/hold-book.png" class="img">
         </td>
       </tr>
+      <tr><td class="filler"></td></tr>
+      <tr>
+        <td class="table-img">
+          <img src="img/guild.png" class="img">
+        </td>
+        <td class="blurb-area">
+          <h1 class="blurb header"> Create or join writers' guilds </h1>
+          <p class="blurb">
+            Using NoveLink, fans of a particular group of authors, genre, or topic
+            within literature can create writers' guilds. These guilds can serve as
+            a themed discussion area in which multiple fans can easily communicate
+            with eachother. Guilds can even create their own flags and raise funds
+            to donate to certain authors within NoveLink. The more money a guild
+            donates and the more members it has can give it special status, and can
+            be featured on the Top Guilds page.
+          </p>
+        </td>
+      </tr>
     </table>
+
     <div class="footer">
       <span> <p id="copyright">&copy; 2018 NoveLink Inc. </p> </span>
       <table class="social-media">
@@ -89,6 +132,7 @@
         </tr>
       </table>
     </div>
+
   </div>
 </body>
 </html>
