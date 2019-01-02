@@ -1,0 +1,7 @@
+@media only screen and (max-width: 900px) {
+  .img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 1000px !important;
+  }
+}

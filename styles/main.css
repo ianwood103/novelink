@@ -1,20 +1,5 @@
-#blurb-table {
+#main-table {
   width: 85%;
-  margin: auto;
-  margin-bottom: 50px;
-}
-
-.blurb-area {
-  background-color: white;
-  width: 50%;
-}
-
-.blurb {
-  padding: 25px;
-}
-
-.header {
-  padding-bottom: 0px;
 }
 
 .table-img {
@@ -32,6 +17,6 @@
   height: auto;
 }
 
-.filler {
-  height: 100px;
+.header {
+  text-align: left;
 }

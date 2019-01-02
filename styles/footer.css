@@ -3,6 +3,7 @@
   width: 100%;
   height: 100px;
   position: relative;
+  margin-top: 50px;
 }
 
 .footer span {
@@ -35,6 +36,7 @@
   text-align: center;
   text-decoration: none;
   border-radius: 10px;
+  min-width: 50px;
 }
 
 .fa:hover {

@@ -1,0 +1,122 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title> Support NoveLink </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Thasadith" rel="stylesheet">
+    <link rel="stylesheet" href="styles/blurb.css">
+    <link rel="stylesheet" href="styles/support.css">
+    <link rel="stylesheet" href="styles/toolbar.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/query.css">
+    <link rel="icon" href="img/icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="background-wrapper">
+
+      <div class="opening-toolbar">
+        <table id="tool-table">
+          <tr>
+            <td id="logo-table">
+              <a href="index.html">
+                <img id="logo" src="img/logo.png">
+              </a>
+            </td>
+            <td>
+              <a href="novelink-help.html">
+                <input id="novelink-help-button" class="tool-btns" type="button" value="What is NoveLink?">
+              </a>
+            </td>
+            <td>
+              <a href="#">
+                <input id="support-button" class="tool-btns" type="button" value="Support Us">
+              </a>
+            </td>
+            <td>
+              <a href="contact.html">
+                <input id="contact-button" class="tool-btns" type="button" value="Contact">
+              </a>
+            </td>
+            <td id="sign-in">
+              <a id="sign-in-button"> Sign In </a>
+            </td>
+            <td id="sign-up">
+              <input type="button" value="Sign Up" id="sign-up-button">
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <table class="blurb-table">
+        <tr>
+          <td class="blurb-area">
+            <h1 class="blurb header"> Support Us </h1>
+            <p class="blurb paragraph">
+              Here at NoveLink, we pride ourselves in keeping our site completely
+              free for anyone who wants to download books from their favorite authors,
+              along with providing an entirely ad-free experience. However, with
+              this type of business model, it is hard to generatre much income, in
+              fact, the only source of revenue comes from the $1 publishing fees
+              that authors pay only once. So, if you want to help keep NoveLink
+              completely free as well as free of ads, we highly encourage you to
+              donate to us down below.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="filler">
+            <img src="img/arrow.png" id="arrow-img">
+          </td>
+        </tr>
+        <tr>
+          <td class="blurb-area">
+            <h1 class="blurb header"> Donate Here </h1>
+          </td>
+        </tr>
+      </table>
+
+      <table class="blurb-table" id="donate-table">
+        <tr>
+          <td class="blurb-area donation-amount">
+            <p class="blurb paragraph"> Specify Amount: </p>
+          </td>
+          <td class="blurb-area donation-amount">
+            <input type="button" value="$1" class="donate-btn btn" id="one-dollar" onclick="dollarAmount(1)">
+          </td>
+          <td class="blurb-area donation-amount">
+            <input type="button" value="$5" class="donate-btn btn" id="five-dollar" onclick="dollarAmount(5)">
+          </td>
+          <td class="blurb-area donation-amount">
+            <input type="button" value="$10" class="donate-btn btn" id="ten-dollar" onclick="dollarAmount(10)">
+          </td>
+          <td class="blurb-area donation-amount">
+            <input type="button" value="$25" class="donate-btn btn" id="twentyfive-dollar" onclick="dollarAmount(25)">
+          </td>
+        </tr>
+      </table>
+      <table class="blurb-table">
+        <tr>
+          <td id="confirm">
+            <input type="button" value="Confirm" class="btn" id="confirm-btn">
+          </td>
+        </tr>
+      </table>
+
+      <div class="footer">
+        <span> <p id="copyright">&copy; 2018 NoveLink Inc. </p> </span>
+        <table class="social-media">
+          <tr>
+            <td> <a href="#" class="fa fa-facebook"></a> </td>
+            <td> <a href="#" class="fa fa-twitter"></a> </td>
+            <td> <a href="#" class="fa fa-instagram"></a> </td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+  </body>
+</html>

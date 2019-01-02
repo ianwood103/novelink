@@ -1,0 +1,95 @@
+#arrow-img {
+  width: 10%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.donation-amount {
+  width: 20%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.donate-btn {
+  width: 75%;
+  border-width: 2px;
+  border-color: #14A6F5;
+  min-height: 15px;
+  background-color: white;
+}
+
+.donate-btn:hover {
+  opacity: 0.7;
+}
+
+#confirm {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+}
+
+#confirm-btn {
+  background-color: white;
+  border: solid black 3px;
+  border-radius: 10px;
+  width: 20%;
+  height: 65px;
+  font-size: 25px;
+  margin-bottom: 40px;
+  margin-top: 25px;
+  animation: load-confirm 0.5s;
+  animation-fill-mode: forwards;
+}
+
+#confirm-btn:hover {
+  animation: hover-confirm 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.checked {
+  background-color: #14A6F5;
+  border-color: black;
+}
+
+@-webkit-keyframes load-confirm{
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+@keyframes load-confirm{
+  from {
+    background-color: black;
+    color: white;
+  }
+  to {
+    background-color: white;
+    color: black;
+  }
+}
+
+@-webkit-keyframes hover-confirm{
+  from {
+    background-color: white;
+    color: black;
+  }
+  to {
+    background-color: black;
+    color: white;
+  }
+}
+
+@keyframes hover-confirm{
+  from {
+    background-color: white;
+    color: black;
+  }
+  to {
+    background-color: black;
+    color: white;
+  }
+}

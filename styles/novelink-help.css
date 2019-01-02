@@ -1,27 +1,13 @@
-.blurb-table {
-  width: 80%;
-  margin: auto;
+#bio-table {
+  margin-bottom: 50px;
 }
 
-.blurb-area {
-  background-color: white;
-  width: 50%;
-}
-
-.blurb {
-  padding: 25px;
-}
-
-.paragraph {
-  font-size: 25px;
-}
-
-.header {
-  padding-bottom: 0px;
+#creator-img {
   text-align: center;
-  font-family: 'Oswald', serif;
 }
 
-.filler {
-  height: 100px;
+#creator {
+  width: 60%;
+  height: auto;
+  text-align: center;
 }
